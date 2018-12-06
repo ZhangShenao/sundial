@@ -168,7 +168,9 @@ Task-Center服务需要依赖sundial-server包
 后台管理应用依赖sundial-demo包。
 
 ### 十一. 数据库表设计
+![pastedGraphic.png](./pics/sundial_schema.png)
 
 系统的表结构比较简单，目前仅涉及一张表，记录所有注册的定时任务的执行状态。
 
 目前暂时考虑记录以上核心字段，随着开发过程再进行扩展。
+
