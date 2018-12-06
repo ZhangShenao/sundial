@@ -1,0 +1,6 @@
+{
+  "brokerURL":"tcp://127.0.0.1:61616",
+  "adminUsername":"admin",
+  "adminPassword":"admin",
+  "recoveryIntervalMillis":2000
+}

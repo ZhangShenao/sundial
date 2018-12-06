@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=william.sundial.server.SundialServerAutoConfiguration
