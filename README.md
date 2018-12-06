@@ -14,9 +14,9 @@
 
 ### 三. 系统架构
 
-系统名称：Sundial——日晷，古代用来计时。
+系统名称：sundial——日晷，古代用来计时。
 
-![pastedGraphic.png](/var/folders/8j/dgpjz1px4h960l4zc48gvnx40000gn/T/abnerworks.Typora/994C93A3-5700-449E-B930-D219B44F40F8/pastedGraphic.png)
+![pastedGraphic.png](./pics/sundial_architect.png)
 
 注：标记颜色的模块需开发。
 
@@ -89,6 +89,7 @@
    Task-Endpoint本地使用TaskExecutor进行实际任务的执行。
 
 ### 七. 定时任务执行流程
+![pastedGraphic.png](./pics/sundial_invoke.png)
 
 1. Task-Endpoint：容器启动
 2. Task-Endpoint：扫描项目中定义的定时任务
@@ -144,6 +145,7 @@
    大部分定时任务都是通过在业务里进行配置，通过Task-Center调度去执行的。同时，后台支持任务的手动创建与执行，即在后台输入任务的执行逻辑和所需参数，直接通过MQ发送TaskCommand通知Task-Endpoint去执行任务。
 
 ### 十. 工程结构
+![pastedGraphic.png](./pics/sundial_project_architect.png)
 
 sundial-common：一些公用的常量、配置等；
 
