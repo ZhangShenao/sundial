@@ -16,7 +16,7 @@
 
 系统名称：Sundial——日晷，古代用来计时。
 
-![pastedGraphic.png](/var/folders/8j/dgpjz1px4h960l4zc48gvnx40000gn/T/abnerworks.Typora/994C93A3-5700-449E-B930-D219B44F40F8/pastedGraphic.png)
+![pastedGraphic.png](./pics/sundial_architect.png)
 
 注：标记颜色的模块需开发。
 
